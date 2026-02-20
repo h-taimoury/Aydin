@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "4 in Ceramic Tile Gloss 4 1/4\" Box of 10 Pieces for Bathroom Wall and Kitchen Backsplash by Tenedos",
+    "price": "29.75",
+    "primary_image": {
+      "id": 1,
+      "url": "/images/products/1/1.jpg",
+      "alt_text": "Glossy white ceramic tile for bathroom and kitchen wall."
+    }
+  },
+  {
+    "id": 2,
+    "name": "44 Lbs Castable Refractory Cement Mix - 3200°F High Temp, Heat & Fire Resistant for Pizza Ovens, Fireplaces, Forges, Kilns, Stoves - Build & Repair Mortar (44LB)",
+    "price": "189.00",
+    "primary_image": {
+      "id": 1,
+      "url": "/images/products/2/1.jpg",
+      "alt_text": "High-temp refractory cement mix for ovens and fireplaces."
+    }
+  },
+  {
+    "id": 3,
+    "name": "SHIZWU 5LB Mixed Color River Rocks - 2-3 inch High Polished Decorative Pebbles, Stones for Landscaping",
+    "price": "24.95",
+    "primary_image": {
+      "id": 1,
+      "url": "/images/products/3/1.jpg",
+      "alt_text": "Mixed color polished river rocks for landscaping."
+    }
+  },
+  {
+    "id": 4,
+    "name": "Large 50 Pound Play Sand, Finely Graded, Fully Washed and Easy to Use for Children's Art, Trays, and Sandbox",
+    "price": "24.95",
+    "primary_image": {
+      "id": 1,
+      "url": "/images/products/4/1.jpg",
+      "alt_text": "Large 50 Pound Play Sand"
+    }
+  },
+  {
+    "id": 5,
+    "name": "ALPI Brick Squeezie Stress Reliever",
+    "price": "8.35",
+    "primary_image": {
+      "id": 1,
+      "url": "/images/products/5/1.jpg",
+      "alt_text": "ALPI Brick Squeezie Stress Reliever"
+    }
+  }
+]
