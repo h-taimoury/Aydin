@@ -1,0 +1,33 @@
+import Link from "next/link";
+import Image from "next/image";
+import { cn } from "@/lib/utils";
+import NavLink from "./navbar/NavLink";
+
+const linkItems = [
+  { title: "Products", href: "/products" },
+  { title: "About", href: "/about" },
+  { title: "Contact", href: "/contact" },
+];
+export default function NavBar() {
+  return (
+    <div className="flex justify-between items-center p-4 lg:px-[10%] border-t-8 border-t-brand-dark">
+      <Link href="/">
+        <Image src="/logo.svg" alt="Logo" width={200} height={60} />
+      </Link>
+      <nav className="hidden pr-12 md:flex items-center gap-8 ">
+        {linkItems.map((linkItem, index) => (
+          <NavLink
+            href={linkItem.href}
+            className={cn(
+              linkItem.title === "Contact" &&
+                "bg-brand-dark text-white rounded-md hover:bg-brand-light px-3",
+            )}
+            key={index}
+          >
+            {linkItem.title}
+          </NavLink>
+        ))}
+      </nav>
+    </div>
+  );
+}
